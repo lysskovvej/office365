@@ -5,13 +5,16 @@ https://techcommunity.microsoft.com/t5/Identity-Authentication/Authenticating-to
 #>
 # start by specifying which prerequist is required
 
+
 #+ Connect-MsolService -Credential $UserCredential
+
+#? Get-MsolUser {{UserPrincipalName}}
 
 New-MsolUser {{DisplayName}} {{FirstName}} {{LastName}} {{UserPrincipalName}}  {{UsageLocation}}  {{LicenseAssignment}}
 
 #- write-host "Done"
 
-<#--- MD
+<#*********************************************************************************************************************
 
 <#--- SWAGGER
 # this is an example of the Uber API
