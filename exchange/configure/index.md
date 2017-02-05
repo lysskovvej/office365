@@ -19,7 +19,7 @@ Open a command prompt and run the following replacing with your admin account an
 
 ```powershell
 echo %365ADMIN-EXCHANGE%
-echo %365ADMIN-EXCHANG-PWDE%
+echo %365ADMIN-EXCHANGE-PWD%
 
 ```
 
