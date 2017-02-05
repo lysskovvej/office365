@@ -9,8 +9,8 @@ is to use the environment variables for that.
 Open a command prompt and run the following replacing with your admin account and password.
 
 ```powershell
-setx 365ADMIN-EXCHANGE adminexchange@365admin.onmicrosoft.com
-setx 365ADMIN-EXCHANGE-PWD=Password+
+setx ADMIN-EXCHANGE admin-exchange@365admin.net
+setx ADMIN-EXCHANGE-PWD=***********
 
 ```
 
@@ -18,8 +18,8 @@ setx 365ADMIN-EXCHANGE-PWD=Password+
 Open a command prompt and run the following replacing with your admin account and password.
 
 ```powershell
-echo %365ADMIN-EXCHANGE%
-echo %365ADMIN-EXCHANGE-PWD%
+echo %ADMIN-EXCHANGE%
+echo %ADMIN-EXCHANGE-PWD%
 
 ```
 
