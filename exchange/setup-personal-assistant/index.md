@@ -4,7 +4,7 @@ title: Delegating mailbox access to a Personal Assistant (PA)
 
 # Delegating mailbox access to a Personal Assistant (PA) 
 
-[Configure Exchange](./_configure.md)
+[Configure Exchange](../_configure)
 
 > Before running this **signin**
 ```PowerShell
