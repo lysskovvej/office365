@@ -1,2 +1,9 @@
-setx 365ADMIN-EXCHANGE admin-exchange@365admin.net
-setx 365ADMIN-EXCHANGE-PWD ***********
+Param(
+[Parameter(Mandatory=$true)]
+[string]$username,
+[Parameter(Mandatory=$true)]
+[string]$password
+)
+
+setx 365ADMIN-EXCHANGE $username
+setx 365ADMIN-EXCHANGE-PWD $password

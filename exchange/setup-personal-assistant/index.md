@@ -24,4 +24,4 @@ todo: Write verification
 ### Sources
 
 -   [Mailbox cmdlets in Exchange
-    Online](https://technet.microsoft.com/da-dk/library/dn641230(v=exchg.160).aspx)
+    Online](https://technet.microsoft.com/da-dk/library/dn641230%28v=exchg.160%29.aspx)

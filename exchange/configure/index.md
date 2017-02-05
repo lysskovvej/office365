@@ -9,13 +9,20 @@ is to use the environment variables for that.
 Open a command prompt and run the following replacing with your admin account and password.
 
 ```powershell
-setx 365ADMIN-EXCHANGE admin-exchange@365admin.net
-setx 365ADMIN-EXCHANGE-PWD ***********
+Param(
+[Parameter(Mandatory=$true)]
+[string]$username,
+[Parameter(Mandatory=$true)]
+[string]$password
+)
+
+setx 365ADMIN-EXCHANGE $username
+setx 365ADMIN-EXCHANGE-PWD $password
 
 ```
 
 ## Verification
-Open a command prompt and run the following replacing with your admin account and password.
+Open a **new** PowerShell window and run the following replacing with your admin account and password.
 
 ```powershell
 $adminUser = ${env:365ADMIN-EXCHANGE}
