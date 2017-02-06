@@ -9,8 +9,8 @@ Delegating mailbox access to a Personal Assistant (PA)
 
 | Variable  | Description                                               | Example                |
 |-----------|-----------------------------------------------------------|------------------------|
-| \$upn     | User Principial Name – the username who shall have access | niels\@365admin.net    |
-| \$mailbox | Address of the mailbox to delegate access to              | cto-hexa\@365admin.net |
+| $upn     | User Principial Name – the username who shall have access | niels@365admin.net    |
+| $mailbox | Address of the mailbox to delegate access to              | cto-hexa@365admin.net |
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Add-MailboxPermission $mailbox -User $upn -AccessRights FullAccess -AutoMapping $true
