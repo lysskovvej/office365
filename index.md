@@ -18,3 +18,6 @@ title: 365admin.net Office365
     </article>
   {% endfor %}
 </div>
+<div>
+{% include search.html %}
+</div>
