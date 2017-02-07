@@ -19,5 +19,5 @@ title: 365admin.net Office365
   {% endfor %}
 </div>
 <div>
-{% include search.html %}
+
 </div>
