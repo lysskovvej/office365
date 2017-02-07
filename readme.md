@@ -12,5 +12,5 @@ Jekyll is used for rendering this site and is automatically updated on (http://3
 - [x] Add top level folder structure resembling Offic365 admin centers
 - [x] List blog posts on frontpage
 - [x] jekyll-now integrated
-- [x] added Search
+- [ ] add Search 
 - [ ] Finalize (./exchange/setup-personal-assistant)
